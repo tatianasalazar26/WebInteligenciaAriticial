@@ -1,0 +1,95 @@
+﻿div {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    color:aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 17px;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    text-align:justify;
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ddd;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.body {
+    background-image: url('https://www.computerworld.es/archivos/201707/ia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.css-button-gradient--4 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+}
+
+    .css-button-gradient--4:hover {
+        background-position: right center;
+    }
+
+    .css-button-gradient--4:active {
+        top: 2px;
+    }
+
+
+
+body {
+    background: black;
+}
+
+
+h1 {
+    color: #FFC100;/* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    text-align: center; /* Alineación del texto */
+    margin-top: 30px; /* Margen superior */
+}
+/* Estilo del título terciario */
+h2 {
+    color: #ffc100; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    text-align: center; /* Alineación del texto */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del título terciario */
+h3 {
+    color: #FFC107; /* Color del texto */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    text-align: center; /* Alineación del texto */
+    margin-top: 20px; /* Margen superior */
+    border-bottom: 2px solid #FFC107; /* Línea inferior */
+}
+
+
+
+
+
+
+
