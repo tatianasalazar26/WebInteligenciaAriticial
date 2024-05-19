@@ -1,49 +1,42 @@
-﻿<%@ Page Title="Inteligencia Artificial" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebInteligenciaAriticial._Default" %>
+﻿﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebInteligenciaAriticial._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<!DOCTYPE html>
 
-
-    <div class="jumbotron text-center" style="background-image: url('https://media.vandalsports.com/i/640x360/3-2023/2023329152530_1.jpg'); background-size: cover; background-color: rgba(0, 0, 0, 0.5);">
-        <h1 class="titulo" style="color:#ffc100">Inteligencia Artificial</h1>
-        <br /><br />  
-        <p style="color:#ffffff";>  La inteligencia artificial (IA) hace posible que las máquinas aprendan de la experiencia, se ajusten a nuevas aportaciones y realicen tareas como seres humanos. La mayoría de los ejemplos de inteligencia artificial sobre los que oye hablar hoy día – desde computadoras que juegan ajedrez hasta automóviles de conducción autónoma – recurren mayormente al aprendizaje profundo y al procesamiento del lenguaje natural. Empleando estas tecnologías, las computadoras pueden ser entrenadas para realizar tareas específicas procesando grandes cantidades de datos y reconociendo patrones en los datos.</p>
-        <p style="text-align: center"><a href="https://www.sas.com/es_co/insights/analytics/what-is-artificial-intelligence.html" class="css-button-gradient--4" target="_blank">Leer más</a></p>
-    
-
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <h3>¿Qué es la inteligencia artificial?</h3>
-            <br /><br />  
-            <p style="text-align:justify">
-                La inteligencia artificial es la simulación de procesos de inteligencia humana por parte de las máquinas, especialmente sistemas informáticos.
-            </p>
-            <p style="text-align: center">
-                <a class="css-button-gradient--4"  href="https://es.wikipedia.org/wiki/Inteligencia_artificial" target="_blank">Leer más &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h3>Aplicaciones de la inteligencia artificial</h3>
-            <br /><br />  
-            <p style="text-align:justify">
-                La inteligencia artificial tiene una gran variedad de aplicaciones en diferentes ámbitos, desde la industria hasta la medicina.
-            </p>
-            <p style="text-align: center">
-                <a class="css-button-gradient--4" href="https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial" target="_blank">Leer más &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h3 >¿Cómo funciona la inteligencia artificial?</h3>
-            <br /><br />  
-            <p style="text-align:justify">
-                La inteligencia artificial se basa en algoritmos que imitan la forma en que el cerebro humano procesa la información.
-            </p>
-            <br />
-            <p style="text-align: center">
-                <a class="css-button-gradient--4" href="https://blog.hubspot.es/marketing/inteligencia-articial-esta-aqui#:~:text=La%20inteligencia%20artificial%20funciona%20a,se%20expone%20a%20m%C3%A1s%20informaci%C3%B3n." target="_blank">Leer más &raquo;</a>
-            </p>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Login</title>
+</head>
+<body class="bg-light">
+    <div style=" display: flex; align-items: center; flex-direction: column; justify-content: center width: 50%; min-height: 100% padding: 20px;">
+        <div style="-webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; background: #fff; padding: 30px; width: 90%; max-width: 450px; position: relative; padding: 0px; -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3); box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3); text-align: center;">
+            <form id="formulario_login" runat="server">
+                <div class="form-control">
+                    <div class="row">
+                        <asp:Label class="h2" ID="lblBienvenida" runat="server" Text="Bienvenido"></asp:Label>
+                    </div>
+                    <div>
+                        <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
+                        <asp:TextBox ID="tbUsuario" CssClass="form-control" runat="server" placeholder="Nombre de Usuario"></asp:TextBox>
+                    </div>
+                    <div>
+                        <asp:Label ID="lblPassword" runat="server" Text="Password:"></asp:Label>
+                        <asp:TextBox ID="tbPassword" CssClass="form-control" TextMode="Password" runat="server" placeholder="Password"></asp:TextBox>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <asp:Label runat="server" CssClass="alert-danger" ID="lblError"></asp:Label>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <asp:Button ID="BtnIngresar" CssClass="btn btn-primary btn-dark" runat="server" Text="Ingresar" OnClick="BtnIngresar_Click" />
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-
-</asp:Content>
+</body>
+</html>
