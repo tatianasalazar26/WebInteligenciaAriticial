@@ -85,6 +85,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     
  
@@ -102,12 +103,16 @@
     <li>NetBase Quid</li>
     <li>Synthesia</li>
     <li>Zoho Zia </li>
-    <p style="text-align: center"><a href="https://www.iebschool.com/blog/herramientas-aplicaciones-inteligencia-artificial-big-data/" class="css-button-gradient--4" target="_blank">Más información</a></p>
-       <img src ="https://thumbs.gfycat.com/HideousGleefulHorsefly-size_restricted.gif"
-            style="vertical-align: bottom; 
-            margin-top: -330px; 
-            margin-left: 850px;"/>
+   
   </ul>
+     <p style="text-align: center"><a href="https://www.iebschool.com/blog/herramientas-aplicaciones-inteligencia-artificial-big-data/" class="css-button-gradient--4" target="_blank">Más información</a></p>
+       
+     <img src ="https://webcompleta.com/wp-content/uploads/2023/08/ia.gif"
+     style="vertical-align: bottom; 
+     margin-top: -500px; 
+     margin-left: 750px; 
+     width: 400px; 
+     height: auto;"/>
                 
 </body>
   
